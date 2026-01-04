@@ -1,0 +1,24 @@
+FlexiMart ETL - Data Quality Report
+========================================
+
+Records processed:
+- customers_raw.csv: 26
+- products_raw.csv: 20
+- sales_raw.csv: 41
+
+Duplicates removed:
+- customers duplicates removed: 1
+- sales duplicates removed: 1
+
+Missing values handled:
+- missing emails handled: 5
+- missing prices handled: 3
+- missing stock handled: 1
+- sales rows removed (missing customer_id): 3
+- sales rows removed (missing product_id): 2
+
+Records loaded successfully:
+- customers loaded/updated: 0
+- products loaded/updated: 0
+- orders loaded/updated: 0
+- order_items loaded: 35
