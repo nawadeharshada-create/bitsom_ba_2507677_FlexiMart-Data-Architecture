@@ -70,8 +70,7 @@ mysql -u root -p fleximart < part1-database-etl/business_queries.sql
 - Invalid value and range checks
 ---------------------------------------------------------------------------------------------
 
-
-## Run Part 2 - NoSQL (MongoDB)
+# Run Part 2 - NoSQL (MongoDB)
 
  **Description:**  MongoDB is used to model a flexible product catalog, where product attributes vary by category. This structure avoids frequent  schema changes and supports nested product attributes efficiently.
  
