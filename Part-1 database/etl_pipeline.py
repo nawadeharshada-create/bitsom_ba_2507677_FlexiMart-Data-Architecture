@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import os
 import re
 from datetime import datetime
@@ -5,13 +6,15 @@ from datetime import datetime
 import pandas as pd
 import mysql.connector
 
+load_dotenv()
+
 # ----------------------------
 # CONFIG
 # ----------------------------
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "harshada@090704",
+    "password": os.getenv("DB_PASSWORD"),
     "database": "fleximart",
 }
 

@@ -1,3 +1,11 @@
+
+
+SELECT database()
+
+USE fleximart_dw;
+
+select 1;
+
 #---- Query 1: Monthly Sales Drill-Down Analysis ----#
 select
   d.year,
@@ -11,6 +19,7 @@ where d.year = 2024
 GROUP BY d.year, d.quarter, d.month, d.month_name
 ORDER BY d.year, d.quarter, d.month;
  
+
 #---- Query 2: Product Performance Analysis ----#
 
 SELECT
